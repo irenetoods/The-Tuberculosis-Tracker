@@ -1,6 +1,6 @@
 # The-Tuberculosis-Tracker
 
-Teammates
+Developed by: 
 
 - Ng Kah Yong
 - Tan Bing Sin
