@@ -1,0 +1,221 @@
+---
+title       : Pocket TB |  R Shiny App | https://irenetoo.shinyapps.io/archivev5/            
+subtitle    : A Tuberculosis (TB) Tracker Featuring Google Trend Analysis and past global Tuberculosis trends 
+author      : Ng Kah Yong(17202174), Tan Bing Sin (17218734), Teo Teck Guan(17202637), Too Ai Leng (17201119)
+job         : Release Date 22/6/2020 |    https://github.com/lengtt/The-Tuberculosis-Tracker
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+autosize    : true
+css: custom.css
+---
+<style>
+.title-slide {
+  background-color: #FFFFFF;
+  /* background-color: #CBE7A5; #EDE0CF; ; #CA9F9D*/
+  /* background-image:url(https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/pic1.png); */
+}
+</style>
+
+<!-- ## slide 1 -->
+<!-- Limit image width and height -->
+<style type='text/css'>
+img {
+    height: 500px;
+    width: 900px;
+}
+</style>
+
+
+```{r echo=FALSE, results='asis', message=FALSE}
+library(devtools)
+library(slidify)
+library(webshot)
+library(rCharts)
+library(plotly)
+#library(tidyverse) 
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+library(ggmap)
+library(viridis)
+library(gtrendsR)
+library(lubridate)
+library(ggthemes)
+library(anomalize)
+library(maps)
+library(knitr)
+
+```
+
+## About the Project | Tuberculosis (TB) Ninja
+
+# TB brought health risk to the world:
+<div class="columns-2">
+<br/>
+<footer class = 'logo'>
+  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/pic2.jpg'></img>
+</footer>
+
+<style type='text/css'>
+img {
+
+    height: 300px;
+    width: 500px;
+    position: right;
+}
+
+font {
+    color: #FFFFFF;
+
+}
+</style>
+
+<!-- Center image on slide -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('right');
+});
+</script>
+<br/>
+# Question 1:
+- How are the trends of Tuberculosis cases from 2004 to 2018? 
+
+<br/>
+# Question 2:
+- How are the Google Search trends from 2004 to 2020 on "tuberculosis" related keywords?
+
+# |  Aim: Raise public awareness on TB
+# |
+# |  Datasets
+# |  WHO past TB cases dataset: 
+-.  https://www.who.int/tb/data/en/ 
+# |
+# |  Google trend search interests datasets: 
+-.  https://trends.google.com/trends/explore?date=all&q=tuberculosis 
+
+--- .class #id
+## Data Science Product in Data Science Ways  
+<div class="columns-2">
+# 1. Clean datasets
+1. Check outliers
+2. Filter unwanted variables
+
+# 2. Preprocess data
+1. data wrangling on year and country features
+2. Data aggregation on selected columns
+3. filter and select features for EDA
+
+# 3. Exploratory Data Analysis
+1. Search interests trend plots by keywords   
+2. Wordcloud
+3. Streamline chart
+
+<footer class = 'logo'>
+  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/App.png'></img>
+</footer>
+<style type='text/css'>
+img {
+
+    height: 300px;
+    width: 500px;
+    position: right;
+}
+
+font {
+    color: #FFFFFF;
+
+}
+</style>
+
+--- .class #id
+## Pocket TB is ready for global download:  
+<div class="columns-2">
+
+# WHO facts on Interactive Map
+# Crisp and clear design
+- Countries
+- Number of TB cases
+- Years
+
+<footer class = 'logo'>
+  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/Slide%204a.png'></img>
+</footer>
+<style type='text/css'>
+img {
+
+    height: 300px;
+    width: 500px;
+    position: right;
+}
+
+font {
+    color: #FFFFFF;
+
+}
+</style>
+
+
+# Interactive Charts
+
+<footer class = 'logo'>
+  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/Slide%204b.png'></img>
+</footer>
+<style type='text/css'>
+img {
+
+    height: 300px;
+    width: 500px;
+    position: right;
+}
+
+font {
+    color: #FFFFFF;
+
+}
+</style>
+
+--- .class #id
+
+## Great experiences, Great app - Pocket TB 
+<div class="columns-2">
+
+# Tech behind:
+-  R
+- HTML
+- CSS
+- Visual appealing contemporary charts
+
+# Our insights through TB Tracker
+1. No correlation between worldwide TB past cases with Google Search trends related to "Tuberculosis"
+
+
+2. Higher concentration of TB cases in Africa continent, compared to others
+
+
+3. Top related topics to TB search term:
+  - BCG (Bacillus Calmette-Guerin vaccine)
+  - mycobacterium - cause of TB disease
+
+<footer class = 'logo'>
+  <img src = 'https://raw.githubusercontent.com/Irnn/dataset_wqd7001/master/wqd7001%20group%20assignment/google%20trend%20line.PNG'></img>
+</footer>
+<style type='text/css'>
+img {
+
+    height: 300px;
+    width: 500px;
+    position: right;
+}
+
+font {
+    color: #FFFFFF;
+
+}
+</style>
+
+
