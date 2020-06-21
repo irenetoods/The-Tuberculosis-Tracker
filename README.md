@@ -13,3 +13,8 @@ visit app
 ```
 https://irenetoo.shinyapps.io/archivev5/
 ```
+
+brief descriptions of our app developing journey on RPub：
+···
+https://rpubs.com/wqd190038/PocketTB
+···
