@@ -18,3 +18,7 @@ brief descriptions of our app developing journey on RPub：
 ```
 https://rpubs.com/UM17218734/pocket_tb
 ```
+video link
+```
+https://github.com/lengtt/The-Tuberculosis-Tracker/blob/master/video/video_withShinyDemo.mkv
+```
