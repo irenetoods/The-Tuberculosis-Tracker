@@ -2,7 +2,7 @@
 title       : Pocket TB |  R Shiny App | https://irenetoo.shinyapps.io/archivev5/            
 subtitle    : A Tuberculosis (TB) Tracker Featuring Google Trend Analysis and past global Tuberculosis trends 
 author      : Ng Kah Yong(17202174), Tan Bing Sin (17218734), Teo Teck Guan(17202637), Too Ai Leng (17201119)
-job         : Release Date 22/6/2020 |    https://github.com/lengtt/The-Tuberculosis-Tracker
+job         : Release Date 22/6/2020 |    https://github.com/irenetoo/The-Tuberculosis-Tracker
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -16,7 +16,7 @@ css: custom.css
 .title-slide {
   background-color: #FFFFFF;
   /* background-color: #CBE7A5; #EDE0CF; ; #CA9F9D*/
-  /* background-image:url(https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/pic1.png); */
+  /* background-image:url(https://raw.githubusercontent.com/irenetoo/The-Tuberculosis-Tracker/master/www/pic1.png); */
 }
 </style>
 
@@ -57,7 +57,7 @@ library(knitr)
 <div class="columns-2">
 <br/>
 <footer class = 'logo'>
-  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/pic2.jpg'></img>
+  <img src = 'https://raw.githubusercontent.com/irenetoo/The-Tuberculosis-Tracker/master/www/pic2.jpg'></img>
 </footer>
 
 <style type='text/css'>
@@ -116,7 +116,7 @@ $(function() {
 3. Streamline chart
 
 <footer class = 'logo'>
-  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/App.png'></img>
+  <img src = 'https://raw.githubusercontent.com/irenetoo/The-Tuberculosis-Tracker/master/www/App.png'></img>
 </footer>
 <style type='text/css'>
 img {
@@ -143,7 +143,7 @@ font {
 - Years
 
 <footer class = 'logo'>
-  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/Slide%204a.png'></img>
+  <img src = 'https://raw.githubusercontent.com/irenetoo/The-Tuberculosis-Tracker/master/www/Slide%204a.png'></img>
 </footer>
 <style type='text/css'>
 img {
@@ -163,7 +163,7 @@ font {
 # Interactive Charts
 
 <footer class = 'logo'>
-  <img src = 'https://raw.githubusercontent.com/lengtt/The-Tuberculosis-Tracker/master/www/Slide%204b.png'></img>
+  <img src = 'https://raw.githubusercontent.com/irenetoo/The-Tuberculosis-Tracker/master/www/Slide%204b.png'></img>
 </footer>
 <style type='text/css'>
 img {
