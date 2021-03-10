@@ -1,7 +1,7 @@
 ---
 title       : Pocket TB |  R Shiny App | https://irenetoo.shinyapps.io/archivev5/            
 subtitle    : A Tuberculosis (TB) Tracker Featuring Google Trend Analysis and past global Tuberculosis trends 
-author      : Ng Kah Yong(17202174), Tan Bing Sin (17218734), Teo Teck Guan(17202637), Too Ai Leng (17201119)
+author      : Ng Kah Yong, Tan Bing Sin , Teo Teck Guan, Too Ai Leng 
 job         : Release Date 22/6/2020 |    https://github.com/irenetoo/The-Tuberculosis-Tracker
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
