@@ -9,7 +9,7 @@ Developed by:
 
 A Shiny App written in R, aimed to raise public awareness on Tuberculosis.
 
-Visit App
+Visit app
 ```
 https://irenetoo.shinyapps.io/archivev5/
 ```
